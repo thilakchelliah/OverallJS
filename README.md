@@ -1,4 +1,4 @@
-# OxygenJS
+#   OxJS
 A Javascript Library which has all the required javascript fucntionality for you every day requirement in application.
 below are the major sections being covered
 * Sorting
@@ -17,35 +17,35 @@ This JS contains the following  sorting methodologies .All these sort methos req
 
 * Insertion sort
 ```JAVASCRIPT
-Oxygenjs.OxyInsertionSort(inputArray);
+  OxJS.OxyInsertionSort(inputArray);
 ```
 * Bubble Sort
 ```JAVASCRIPT
-Oxygenjs.OxyBubbleSort(inputArray);
+  OxJS.OxyBubbleSort(inputArray);
 ```
 * Selection Sort
 ```JAVASCRIPT
-Oxygenjs.OxySelectionSort(inputArray);
+  OxJS.OxySelectionSort(inputArray);
 ```
 * Shell Sort
 ```JAVASCRIPT
-Oxygenjs.OxyShellSort(inputArray);
+  OxJS.OxyShellSort(inputArray);
 ```
 * Merge Sort
 ```JAVASCRIPT
-Oxygenjs.OxyMergeSort(inputArray);
+  OxJS.OxyMergeSort(inputArray);
 ```
 * Heap Sort
 ```JAVASCRIPT
-Oxygenjs.OxyHeapSort(inputArray);
+  OxJS.OxyHeapSort(inputArray);
 ```
 * Quick Sort
 ```JAVASCRIPT
-Oxygenjs.OxyQuickSort(inputArray);
+  OxJS.OxyQuickSort(inputArray);
 ```
 * Quick3 Sort
 ```JAVASCRIPT
-Oxygenjs.OxyQuick3Sort(inputArray);
+  OxJS.OxyQuick3Sort(inputArray);
 ```
 
 #### Random Genrerators
