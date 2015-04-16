@@ -1,4 +1,4 @@
-#   OxJS
+#   OverallJS
 A Javascript Library which has all the required javascript fucntionality for you every day requirement in application.
 below are the major sections being covered
 * Sorting
@@ -17,35 +17,35 @@ This JS contains the following  sorting methodologies .All these sort methos req
 
 * Insertion sort
 ```JAVASCRIPT
-  OxJS.OxyInsertionSort(inputArray);
+  OverallJS.OxyInsertionSort(inputArray);
 ```
 * Bubble Sort
 ```JAVASCRIPT
-  OxJS.OxyBubbleSort(inputArray);
+  OverallJS.OxyBubbleSort(inputArray);
 ```
 * Selection Sort
 ```JAVASCRIPT
-  OxJS.OxySelectionSort(inputArray);
+  OverallJS.OxySelectionSort(inputArray);
 ```
 * Shell Sort
 ```JAVASCRIPT
-  OxJS.OxyShellSort(inputArray);
+  OverallJS.OxyShellSort(inputArray);
 ```
 * Merge Sort
 ```JAVASCRIPT
-  OxJS.OxyMergeSort(inputArray);
+  OverallJS.OxyMergeSort(inputArray);
 ```
 * Heap Sort
 ```JAVASCRIPT
-  OxJS.OxyHeapSort(inputArray);
+  OverallJS.OxyHeapSort(inputArray);
 ```
 * Quick Sort
 ```JAVASCRIPT
-  OxJS.OxyQuickSort(inputArray);
+  OverallJS.OxyQuickSort(inputArray);
 ```
 * Quick3 Sort
 ```JAVASCRIPT
-  OxJS.OxyQuick3Sort(inputArray);
+  OverallJS.OxyQuick3Sort(inputArray);
 ```
 
 #### Random Genrerators
