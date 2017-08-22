@@ -50,6 +50,32 @@ This JS contains the following  sorting methodologies .All these sort methos req
 
 #### Random Genrerators
 
+* Generate Random integer number between two limits
+```JAVASCRIPT
+  OverallJS.GetRandomNumBetween(inputArray);
+```
+
+* Generate Random alpha numeric(small letters) string based on the givennumber of characters 
+```JAVASCRIPT
+  OverallJS.GetRandomAlphaSmallNum(characteres);
+```
+
+* Generate Random alpha-numeric(small as well as upper case) string based on number of characters
+```JAVASCRIPT
+  OverallJS.GetRandomAlphaSmallAndUpperNum(characteres);
+```
+
+* Generate Random alpha-numeric(upper case) string based on number of characters
+```JAVASCRIPT
+  OverallJS.GetRandomAlphaCapsNum(characteres);
+```
+
+* Generate Random array of alpha numeric characters
+```JAVASCRIPT
+  OverallJS.OxyRandomArray(arraylength);
+```
+
+
 
 ### Version
 1.0.0
