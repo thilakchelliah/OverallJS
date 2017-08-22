@@ -1,6 +1,6 @@
 /*
 * **********************************************************
-* OxygenJS v1.0
+* OverallJS v1.0
 * Copyright (C) 2015  Thilak49(thilak.chelliah49@gmail.com)
 * Licensed under http://www.apache.org/licenses/LICENSE-2.0
 * **********************************************************
@@ -22,7 +22,7 @@ function _CalculateFactorial(num) {
         return num * _CalculateFactorial(num - 1);
     }
 }
-var Oxygenjs = {
+var OverallJS = {
     /*Method to get a random number between two numbers*/
     GetRandomNumBetween: function (a, b) {
         return Math.floor(Math.random() * b) + a;
@@ -34,8 +34,8 @@ var Oxygenjs = {
         alphanum = "";
         for (var i = 1; i <= digits; i++) {
             var value = '';
-            if (Oxygenjs.GetRandomNumBetween(1, 2) == 1) value = aphaArray[Oxygenjs.GetRandomNumBetween(0, 27)];
-            else value = numArray[Oxygenjs.GetRandomNumBetween(0, 9)];
+            if (OverallJS.GetRandomNumBetween(1, 2) == 1) value = aphaArray[OverallJS.GetRandomNumBetween(0, 27)];
+            else value = numArray[OverallJS.GetRandomNumBetween(0, 9)];
             alphanum = alphanum + value;
         }
         return alphanum;
@@ -48,10 +48,10 @@ var Oxygenjs = {
             alphanum = "";
         for (var i = 1; i <= digits; i++) {
             var value = '',
-                chosenType = Oxygenjs.GetRandomNumBetween(1, 3);
-            if (chosenType == 1) value = aphaSmallArray[Oxygenjs.GetRandomNumBetween(0, 27)];
-            else if (chosenType == 2) value = aphaUpperArray[Oxygenjs.GetRandomNumBetween(0, 27)];
-            else value = numArray[Oxygenjs.GetRandomNumBetween(0, 9)];
+                chosenType = OverallJS.GetRandomNumBetween(1, 3);
+            if (chosenType == 1) value = aphaSmallArray[OverallJS.GetRandomNumBetween(0, 27)];
+            else if (chosenType == 2) value = aphaUpperArray[OverallJS.GetRandomNumBetween(0, 27)];
+            else value = numArray[OverallJS.GetRandomNumBetween(0, 9)];
             if (value == undefined) value = '0';
             if (isSplitted == false || isSplitted == undefined)
                 alphanum = alphanum + value;
@@ -65,19 +65,19 @@ var Oxygenjs = {
     },
     /*Method to get a random alpha-numeric(upper case) string based on number of digits*/
     GetRandomAlphaCapsNum: function (digits) {
-        return Oxygenjs.GetRandomAlphaSmallNum(digits).toUpperCase();
+        return OverallJS.GetRandomAlphaSmallNum(digits).toUpperCase();
     },
     /*Method to get a random of given list*/
     GetRandomFromUserArray: function (userdefinedString) {
         try {
             var userDefinedArray = userdefinedString.split(',');
-            return userDefinedArray[Oxygenjs.GetRandomNumBetween(0, userDefinedArray.length)];
+            return userDefinedArray[OverallJS.GetRandomNumBetween(0, userDefinedArray.length)];
         } catch (exception) { }
     },
 
     //Generate Random random array
     OxyRandomArray: function (arrayLength) {
-        return Oxygenjs.GetRandomAlphaSmallAndUpperNum(arrayLength, true).split(',');
+        return OverallJS.GetRandomAlphaSmallAndUpperNum(arrayLength, true).split(',');
     },
 
     //Timer in milliseconds
